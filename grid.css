@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+.list{
+    display:grid;
+    grid-template-columns: repeat( auto-fit ,minmax(50px, 1fr));
+    grid-gap: 30px;
+    grid-auto-flow: row;
+    text-align: center;
+}
+dt{
+    background-color: rgba(169, 169, 169, 0.685);
+}
